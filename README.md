@@ -1,5 +1,4 @@
-````markdown
-# Understanding TypeScript: Interfaces vs Types, and The Power of Type Safety
+# Understanding TypeScript: Interfaces vs Types, and The Union & Intersection Types
 
 TypeScript adds strong typing to JavaScript, enabling developers to write more predictable and maintainable code. Two common areas of confusion are the difference between **interfaces vs types**, and **Union & Intersection Types**: How to model flexible and composable types.
 
