@@ -1,11 +1,9 @@
-// ------------------------ //
 function formatString(input: string, toUpper?: boolean): string {
   if (toUpper == undefined || toUpper) {
     return input.toUpperCase();
   }
   return input.toLowerCase();
 }
-// ------------------------ //
 
 // ------------------------ //
 function filterByRating(
@@ -13,7 +11,6 @@ function filterByRating(
 ): { title: string; rating: number }[] {
   return items.filter((item) => item.rating >= 4);
 }
-// ------------------------ //
 
 // ------------------------ //
 function concatenateArrays<T>(...arrays: T[][]): T[] {
@@ -25,7 +22,6 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
   }
   return result;
 }
-// ------------------------ //
 
 // ------------------------ //
 class Vehicle {
@@ -49,7 +45,6 @@ class Car extends Vehicle {
         return `Model: ${this.model}`;
     }
 }
-// ------------------------ //
 
 // ------------------------ //
 function processValue(value: string | number): number {
@@ -58,7 +53,6 @@ function processValue(value: string | number): number {
   }
   return value * 2;
 }
-// ------------------------ //
 
 // ------------------------ //
 interface Product {
@@ -81,7 +75,6 @@ function getMostExpensiveProduct(products: Product[]): Product | null {
 
   return mostExpensiveProduct;
 }
-// ------------------------ //
 
 // ------------------------ //
 enum Day {
@@ -101,7 +94,6 @@ function getDayType(day: Day): string {
     return "Weekday";
   }
 }
-// ------------------------ //
 
 // ------------------------ //
 async function squareAsync(n: number): Promise<number> {
@@ -115,4 +107,3 @@ async function squareAsync(n: number): Promise<number> {
         }
     });
 }
-// ------------------------ //

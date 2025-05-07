@@ -45,8 +45,6 @@ type Person = {
 * Cannot be reopened/merged like interfaces
 * Can be use both in primitive types and non-primitive types
 
-> 🔹 In modern TypeScript, both are powerful — and largely interchangeable — but interfaces tend to be favored for defining objects.
-
 ---
 
 ## 2. Union & Intersection Types in TypeScript
@@ -88,5 +86,3 @@ const staffMember: Staff = {
 
 * **Union (`|`)**: A **choice** between types — useful for flexibility.
 * **Intersection (`&`)**: A **combination** of types — useful for composing features.
-
----
